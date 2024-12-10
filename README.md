@@ -46,3 +46,5 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+for this app i have fixed the UNIQUE section on the votes, the issue arose due to the section being commented out, i also connected the server to the database on supabase to allow use and editing of the schema and the sql. Add to that i added AUTH_GITHUB_ID and AUTH_GITHUB_SECRET and lastly for the MVP i also added an AUTH_SECRET.
